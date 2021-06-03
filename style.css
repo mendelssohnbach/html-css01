@@ -19,3 +19,16 @@
 .navbar a {
   color: white;
 }
+
+.hero {
+  min-height: 450px;
+  background: url('http://lorempixel.com/1140/800/animals') no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lead {
+  color: white;
+  text-align: center;
+}
