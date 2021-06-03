@@ -32,3 +32,18 @@
   color: white;
   text-align: center;
 }
+
+.content {
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.main {
+  flex: 5;
+}
+.sidebar {
+  flex: 2;
+}
+.sidebar img {
+  width: 100%;
+}
