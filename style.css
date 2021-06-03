@@ -61,3 +61,12 @@
 .section img {
   max-width: 100%;
 }
+
+.footer {
+  min-height: 200px;
+  background-color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
