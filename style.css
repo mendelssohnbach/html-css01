@@ -70,3 +70,35 @@
   align-items: center;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  ul {
+    flex-wrap: wrap;
+  }
+  .navbar img {
+    margin: 1rem auto;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .section {
+    flex-direction: column;
+  }
+
+  .desc {
+    padding: 0;
+  }
+  .desc p {
+    width: 38ch;
+  }
+
+  .content,
+  .image {
+    margin-left: 0;
+  }
+}
