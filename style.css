@@ -47,3 +47,17 @@
 .sidebar img {
   width: 100%;
 }
+
+.section {
+  display: flex;
+}
+.image {
+  flex: 2;
+}
+.desc {
+  flex: 5;
+  padding: 0 2rem;
+}
+.section img {
+  max-width: 100%;
+}
