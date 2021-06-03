@@ -8,6 +8,8 @@ body {
   background-color: #445721;
 }
 .navbar {
+  font-size: 0.8rem;
+  padding-right: 0.5rem;
   max-width: 1140px;
   margin: 0 auto;
   display: flex;
@@ -71,6 +73,7 @@ body {
 
 .footer {
   min-height: 200px;
+  /* width: 100vw; */
   background-color: #666;
   display: flex;
   justify-content: center;
