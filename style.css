@@ -31,14 +31,14 @@ body {
 
 .hero {
   min-height: 450px;
-  background: url('http://lorempixel.com/1140/800/animals') no-repeat;
+  background: url('http://unsplash.it/1140/800?random&gravity=center') no-repeat;
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .lead {
-  color: white;
+  color: rgb(184, 184, 184);
   text-align: center;
 }
 
@@ -73,7 +73,6 @@ body {
 
 .footer {
   min-height: 200px;
-  /* width: 100vw; */
   background-color: #666;
   display: flex;
   justify-content: center;
@@ -117,5 +116,11 @@ body {
   .content,
   .image {
     margin-left: 0;
+  }
+
+  @media (max-width: 608px) {
+    .footer {
+      width: 100vw;
+    }
   }
 }
